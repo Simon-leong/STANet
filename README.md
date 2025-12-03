@@ -1,5 +1,5 @@
-# STSVD
-Project page for "Rethinking Surgical Smoke: A Smoke-Type-Aware Laparoscopic Video Desmoking Method and Dataset" (AAAI 2026)
+# Rethinking Surgical Smoke: A Smoke-Type-Aware Laparoscopic Video Desmoking Method and Dataset
+**Official dataset repository** for  **"Rethinking Surgical Smoke: A Smoke-Type-Aware Laparoscopic Video Desmoking Method and Dataset" (AAAI 2026)**.
 
 ## 🚧 To-Do List
 - [ ] **Release the STSVD dataset**  

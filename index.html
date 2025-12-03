@@ -54,7 +54,6 @@
   <div class="hero-body py-5">
     <div class="container is-max-desktop has-text-centered">
 
-      <!-- 标题 -->
       <h1 class="title is-2 publication-title">
         Rethinking Surgical Smoke: 
         <br>
@@ -63,13 +62,11 @@
         </span>
       </h1>
 
-      <!-- ✅ 新增：会议接收信息 -->
       <p class="has-text-weight-semibold mt-2" 
          style="font-style: italic; color: #b22222; letter-spacing: 0.03em;">
         Accepted at <strong>AAAI&nbsp;2026</strong>
       </p>
 
-      <!-- 作者信息 -->
       <div class="is-size-5 mt-4 publication-authors">
         <span><strong>Qifan Liang</strong><sup>1,2,5</sup></span>,
         <span><strong>Junlin Li</strong><sup>3</sup></span>,
@@ -79,7 +76,6 @@
         <span><strong>Bin Mei</strong><sup>4</sup></span>
       </div>
 
-      <!-- 单位 -->
       <div class="is-size-6 has-text-grey mt-2">
         <p><sup>1</sup> National Engineering Research Center for Multimedia Software, School of Computer Science, Wuhan University, China</p>
         <p><sup>2</sup> Hubei Key Laboratory of Multimedia and Network Communication Engineering, School of Computer Science, Wuhan University, China</p>
@@ -201,20 +197,20 @@
 }
 
 .hero.teaser {
-  padding-bottom: 1rem !important; /* 缩小整个 section 的底部间距 */
+  padding-bottom: 1rem !important; 
 }
 
 .hero.teaser .subtitle {
-  margin-top: 1rem !important;   /* 调整视频与文字之间距离 */
-  margin-bottom: 0.5rem !important; /* 减小文字与下方 Abstract 的间距 */
-  font-size: 1.05rem;             /* 可选：让标题略小更协调 */
+  margin-top: 1rem !important;  
+  margin-bottom: 0.5rem !important; 
+  font-size: 1.05rem;             
 }
 
 .subtitle.small-text {
-  font-size: 1rem !important; /* 默认约 1.25rem，这里改小一点 */
-  line-height: 1.4;           /* 调整行距 */
-  margin-top: 0.75rem !important; /* 缩小与上方的间距 */
-  margin-bottom: 0.75rem !important; /* 缩小与下方的间距 */
+  font-size: 1rem !important; 
+  line-height: 1.4;           
+  margin-top: 0.75rem !important; 
+  margin-bottom: 0.75rem !important; 
 }
 
 </style>
@@ -361,7 +357,6 @@
   <div class="container">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <!-- ===== 标题 ===== -->
         <h2 class="title is-3" style="font-weight: 900; text-shadow: 1px 1px 3px rgba(255, 50, 50, 0.6); color: #b22222;">
           <span class="icon is-large has-text-danger">
             <i class="fas fa-fire fa-lg"></i>
@@ -372,7 +367,6 @@
           </span>
         </h2>
 
-        <!-- ✅ 新增说明文字 -->
         <p class="has-text-centered" 
            style="font-size: 1.05rem; color: #555; max-width: 800px; margin: 0 auto 1.5rem auto; line-height: 1.6;">
             Due to the lack of smoke type annotations in existing desmoking datasets, 
@@ -384,19 +378,16 @@
             across 28 types of surgical scenarios.
         </p>
 
-        <!-- 图片展示 -->
         <div style="box-shadow: 0 8px 24px rgba(0,0,0,0.12); border-radius: 12px; overflow: hidden; margin-top: 1.5rem;">
           <img src="static/videos/dataset.gif" alt="Dataset Pipeline and Statistics" style="width: 100%; height: auto; display: block;" />
         </div>
 
-        <!-- 图注 -->
         <h2 class="subtitle small-text has-text-centered mt-4"
             style="font-style: italic; letter-spacing: 0.03em; color: #666;">
           Dataset Overview: From top to bottom are Diffusion Smoke, Ambient Smoke, and their entanglement,
           along with their corresponding GT smoke masks.
         </h2>
 
-        <!-- 按钮 -->
         <div class="buttons is-centered mt-4">
           <a class="button is-danger is-medium is-rounded" href="https://simon-leong.github.io/STANet/" target="_blank" 
              style="background: linear-gradient(135deg, #ff4e50, #f9d423); border: none; box-shadow: 0 4px 12px rgba(249, 212, 35, 0.6); transition: transform 0.3s ease;">
@@ -429,13 +420,10 @@
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
 
-          <!-- 标题 -->
           <h2 class="title is-3">Experiment: Visual Comparisons</h2>
 
-          <!-- 图片轮播 -->
           <div id="results-carousel" class="carousel results-carousel">
 
-            <!-- 第一组 -->
             <div class="item">
               <img src="static/images/STSVD.png" alt="Visual Comparison on STSVD Dataset"/>
               <h2 class="subtitle small-text has-text-centered mt-4"
@@ -445,7 +433,6 @@
               </h2>
             </div>
 
-            <!-- 第二组 -->
             <div class="item">
               <img src="static/images/Vivo.png" alt="Visual Comparison on Vivo Dataset"/>
               <h2 class="subtitle small-text has-text-centered mt-4"
@@ -455,7 +442,6 @@
               </h2>
             </div>
 
-            <!-- 第三组 -->
             <div class="item">
               <img src="static/images/STSVDR.png" alt="Visual Comparison on STSVDR Dataset"/>
               <h2 class="subtitle small-text has-text-centered mt-4"
@@ -498,7 +484,6 @@
 
 <!-- ===== Optional Styling ===== -->
 <style>
-  /* 让上下两块视觉更紧凑 */
   section.section.hero.is-light {
     padding-top: 3rem;
     padding-bottom: 2.5rem;
@@ -509,7 +494,6 @@
     margin-top: -1rem !important;
   }
 
-  /* 淡分隔线，视觉更平衡 */
   section.section.hero.is-light + section.section.hero.is-light {
     border-top: 1px solid #eee;
   }
@@ -532,6 +516,16 @@
       <pre><code>
 % The official BibTeX entry will be provided upon AAAI-26 publication.
 % Please check back later for the updated citation.
+% The following is arxiv version:
+@misc{liang2025rethinkingsurgicalsmokesmoketypeaware,
+      title={Rethinking Surgical Smoke: A Smoke-Type-Aware Laparoscopic Video Desmoking Method and Dataset}, 
+      author={Qifan Liang and Junlin Li and Zhen Han and Xihao Wang and Zhongyuan Wang and Bin Mei},
+      year={2025},
+      eprint={2512.02780},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2512.02780}, 
+}
       </code></pre>
     </div>
   </div>
@@ -540,8 +534,6 @@
 
 
 <!--End BibTex citation -->
-
-
 
 <footer class="footer">
   <div class="container">
@@ -572,14 +564,6 @@
 </footer>
 
 
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
-
-    <!-- End of Statcounter Code -->
-
-    <!-- Script -->
-  <!-- 这个应该在 body 末尾，确保 DOM 完成 -->
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     initBeforeAfterSlider('slider1');

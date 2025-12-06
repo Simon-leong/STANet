@@ -6,7 +6,7 @@
   *High-resolution laparoscopic videos with smoke-type annotations (Diffusion / Ambient / Entangled)*  
 - [ ] Provide full **dataset documentation**, including directory structure, annotation protocol, and metadata format  
 
-> ⏳ **We are actively preparing the dataset for public release and expect to make it available soon.**
+> ⏳ **We are actively preparing the dataset for public release and expect to make it available within December.**
 
 ---
 

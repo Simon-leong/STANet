@@ -11,8 +11,8 @@ The dataset website is now online:
 ### Download Options
 The dataset can be downloaded through the following channels:
 
-- **Google Drive**: [Download Link]([https://your-google-drive-link](https://drive.google.com/drive/folders/1LRBvJNVl-d2yFvnLwfNMXzJY1xq8fOPN?usp=sharing))
-- **Baidu Netdisk (Password: AAAI)**: [Download Link]([https://your-baidu-pan-link](https://pan.baidu.com/s/1plMCv63mMTpyWIpZK3cuvA))
+- **Google Drive**: [Download Link](https://drive.google.com/drive/folders/1LRBvJNVl-d2yFvnLwfNMXzJY1xq8fOPN?usp=sharing)
+- **Baidu Netdisk (Password: AAAI)**: [Download Link](https://pan.baidu.com/s/1plMCv63mMTpyWIpZK3cuvA)
 
 🚧 Information such as the directory structure, annotation format, and metadata details can be found directly on the dataset website.
 

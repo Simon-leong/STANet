@@ -1,13 +1,30 @@
 # Rethinking Surgical Smoke: A Smoke-Type-Aware Laparoscopic Video Desmoking Method and Dataset
 **Official dataset repository** for  **"Rethinking Surgical Smoke: A Smoke-Type-Aware Laparoscopic Video Desmoking Method and Dataset" (AAAI 2026)**.
 
-## 🚧 To-Do List
-- [ ] **Release the STSVD dataset**  
-  *High-resolution laparoscopic videos with smoke-type annotations (Diffusion / Ambient / Entangled)*  
-- [ ] Provide full **dataset documentation**, including directory structure, annotation protocol, and metadata format  
+## 📦 Dataset Release (STSVD v1.0 Available)
 
-> ⏳ **We are actively preparing the dataset for public release and expect to make it available within December.**
+We are pleased to announce that the **STSVD dataset (v1.0)** has been officially released.  
+The dataset website is now online:
 
+👉 https://simon-leong.github.io/STSVD_dataset_website/
+
+### Download Options
+The dataset can be downloaded through the following channels:
+
+- **Google Drive**: [Download Link]([https://your-google-drive-link](https://drive.google.com/drive/folders/1LRBvJNVl-d2yFvnLwfNMXzJY1xq8fOPN?usp=sharing))
+- **Baidu Netdisk (Password: AAAI)**: [Download Link]([https://your-baidu-pan-link](https://pan.baidu.com/s/1plMCv63mMTpyWIpZK3cuvA))
+
+🚧 Information such as the directory structure, annotation format, and metadata details can be found directly on the dataset website.
+
+### 🔧 Future Updates
+We will continue maintaining the dataset. Planned updates include:
+
+- [ ]  **Release the dataset generation code**
+- [ ]  Provide additional documentation and detailed explanations
+- [ ]  Prepare incremental updates for future dataset versions
+
+### Feedback
+If you notice any issues or errors in the released data, please contact the **first author**. We will update the dataset as needed.
 ---
 
 ## 📄 Citation

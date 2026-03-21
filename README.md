@@ -33,12 +33,15 @@ If you notice any issues or errors in the released data, please contact the **fi
 If you find this work useful, please consider citing:
 
 ```bibtex
-@misc{liang2025rethinkingsurgicalsmokesmoketypeaware,
-      title={Rethinking Surgical Smoke: A Smoke-Type-Aware Laparoscopic Video Desmoking Method and Dataset}, 
-      author={Qifan Liang and Junlin Li and Zhen Han and Xihao Wang and Zhongyuan Wang and Bin Mei},
-      year={2025},
-      eprint={2512.02780},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2512.02780}, 
+@article{liang2026rethinking,
+  title={Rethinking Surgical Smoke: A Smoke-Type-Aware Laparoscopic Video Desmoking Method and Dataset},
+  author={Liang, Qifan and Li, Junlin and Han, Zhen and Wang, Xihao and Wang, Zhongyuan and Mei, Bin},
+  journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={40},
+  number={9},
+  pages={6844--6852},
+  year={2026},
+  month={Mar},
+  doi={10.1609/aaai.v40i9.37617},
+  url={https://ojs.aaai.org/index.php/AAAI/article/view/37617}
 }
